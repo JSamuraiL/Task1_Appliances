@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class gas_stove : Appliances, multi_mode_technology
+    public class Gas_stove : Appliances, IMulti_mode_technology
     {
         public int number_of_modes { get; set; }
         public string Manufacturer { get; set; }
