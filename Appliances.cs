@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public abstract class Creator //Абстрактный класс создателей
+    public abstract class Appliances //Абстрактный класс техники
     {
         public string Manufacturer {  get; set; } //Производитель
     }

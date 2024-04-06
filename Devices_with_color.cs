@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public abstract class Devices_with_color //Абстрактный класс цветной техники
+    public abstract class Devices_with_color:electrical_appliances //Абстрактный класс цветной техники
     {
         public string color {  get; set; } //Цвет техники
     }

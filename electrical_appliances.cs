@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public abstract class electrical_appliances //Абстрактный класс электрических приборов
+    public abstract class electrical_appliances:Appliances //Абстрактный класс электрических приборов
     {
         public string energy_class {  get; set; } //Класс энергопотребления, string, так как используются буквенные обозначения
     }
