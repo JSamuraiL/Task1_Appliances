@@ -10,6 +10,6 @@ namespace Task1
     {
         public string energy_class { get; set; }
         public string Manufacturer { get; set; }
-        int multi_mode_technology.number_of_modes { get; set; }
+        public int number_of_modes { get; set; }
     }
 }
