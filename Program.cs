@@ -2,9 +2,6 @@
 using Task1;
 
 Console.WriteLine("Hello, World!");
-Console.WriteLine("");
-Console.WriteLine("------------------------------------------------------------");
-Console.WriteLine("");
 var Iron = new iron {
     Manufacturer = "Tefal",
     color = "Blue",
