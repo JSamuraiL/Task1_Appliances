@@ -2,8 +2,3 @@
 using Task1;
 
 Console.WriteLine("Hello, World!");
-var creator = new Creator
-{
-    Manufacturer = "Me"
-};
-Console.WriteLine(creator.Manufacturer);

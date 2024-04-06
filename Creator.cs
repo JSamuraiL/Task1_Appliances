@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public  class Creator
+    public abstract class Creator //Абстрактный класс создателей
     {
-        public string Manufacturer {  get; set; }
+        public string Manufacturer {  get; set; } //Производитель
     }
 }
