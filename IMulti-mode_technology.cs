@@ -7,7 +7,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Task1
 {
-    public interface multi_mode_technology //Интерфейс многорежимной техники
+    public interface IMulti_mode_technology //Интерфейс многорежимной техники
     {
         public int number_of_modes {  get; set; } //Количество режимов
         public string Manufacturer { get; set; } //Производитель

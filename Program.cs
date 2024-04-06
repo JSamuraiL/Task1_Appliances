@@ -2,7 +2,7 @@
 using Task1;
 
 Console.WriteLine("Hello, World!");
-var Iron = new iron {
+var Iron = new Iron {
     Manufacturer = "Tefal",
     color = "Blue",
     set_of_functions = "Отпарить, погладить, брызнуть водой",
@@ -14,7 +14,7 @@ var Washer = new Washer {
     type_of_load = "Fast",
     energy_class = "A+"
 };
-var Gas_stove = new gas_stove {
+var Gas_stove = new Gas_stove {
     Manufacturer = "Трудяга",
     number_of_burner = 4,
     number_of_modes = 6,

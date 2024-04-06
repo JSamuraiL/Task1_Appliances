@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class Dishwasher : Appliances, multi_mode_technology, electrical_appliances
+    public class Dishwasher : Appliances, IMulti_mode_technology, IElectrical_appliances //Посудомоечная машина
     {
         public string energy_class { get; set; }
         public string Manufacturer { get; set; }

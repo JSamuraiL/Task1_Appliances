@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class Microwave : Appliances, electrical_appliances, multi_mode_technology
+    public class Microwave : Appliances, IElectrical_appliances, IMulti_mode_technology
     {
         public string energy_class { get; set; }
         public string Manufacturer { get; set; }
