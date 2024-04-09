@@ -31,3 +31,9 @@ var Diswasher = new Dishwasher {
     number_of_modes = 3,
     energy_class = "C"
 };
+
+Console.WriteLine(Iron.ToString().Substring(6)+ ": " + Iron.energy_class);
+Console.WriteLine(Washer.ToString().Substring(6) + ": " + Washer.energy_class);
+Console.WriteLine(Microwave.ToString().Substring(6) + ": " + Microwave.energy_class);
+Console.WriteLine(Diswasher.ToString().Substring(6) + ": " + Diswasher.energy_class);
+//Должно вывести название техники и её класс энергопотребления

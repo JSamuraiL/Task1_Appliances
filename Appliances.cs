@@ -8,6 +8,5 @@ namespace Task1
 {
     public abstract class Appliances //Абстрактный класс техники
     {
-
     }
 }
