@@ -8,5 +8,6 @@ namespace Task1
 {
     public abstract class Appliances //Абстрактный класс техники
     {
+        public string Manufacturer { get; set; } //Производитель
     }
 }

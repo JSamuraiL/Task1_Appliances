@@ -10,6 +10,5 @@ namespace Task1
     public interface IMulti_mode_technology //Интерфейс многорежимной техники
     {
         public int number_of_modes {  get; set; } //Количество режимов
-        public string Manufacturer { get; set; } //Производитель
     }
 }

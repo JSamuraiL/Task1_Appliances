@@ -9,7 +9,6 @@ namespace Task1
     public class Microwave : Appliances, IElectrical_appliances, IMulti_mode_technology
     {
         public string energy_class { get; set; }
-        public string Manufacturer { get; set; }
         public int Power { get; set; }
         public int number_of_modes { get; set; }
     }

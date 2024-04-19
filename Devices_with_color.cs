@@ -10,6 +10,5 @@ namespace Task1
     {
         public string color {  get; set; } //Цвет техники
         public string energy_class { get; set; } //Класс энергопотребления  
-        public string Manufacturer { get; set; } //Производитель
     }
 }
