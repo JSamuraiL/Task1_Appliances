@@ -28,12 +28,12 @@ var Microwave = new Microwave {
 };
 var Diswasher = new Dishwasher { 
     Manufacturer = "Samsung",
-    number_of_modes = 3,
-    energy_class = "C"
+    number_of_modes = 0,
+    energy_class = "A"
 };
-
-Console.WriteLine(Iron.ToString().Substring(6)+ ": " + Iron.energy_class);
-Console.WriteLine(Washer.ToString().Substring(6) + ": " + Washer.energy_class);
-Console.WriteLine(Microwave.ToString().Substring(6) + ": " + Microwave.energy_class);
-Console.WriteLine(Diswasher.ToString().Substring(6) + ": " + Diswasher.energy_class);
+Iron.Iron_exit(Iron.Manufacturer, Iron.energy_class, Iron.set_of_functions, Iron.color);
+Diswasher.Diswasher_exit(Diswasher.Manufacturer, Diswasher.energy_class, Diswasher.number_of_modes);
+Washer.Washer_exit(Washer.Manufacturer, Washer.energy_class, Washer.color, Washer.type_of_load);
+Microwave.Microwave_exit(Microwave.Manufacturer, Microwave.energy_class, Microwave.number_of_modes, Microwave.Power);
+Gas_stove.Gas_stove_exit(Gas_stove.Manufacturer, Gas_stove.number_of_burner, Gas_stove.number_of_modes);
 //Должно вывести название техники и её класс энергопотребления
